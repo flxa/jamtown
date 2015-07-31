@@ -1,0 +1,145 @@
+/*
+Theme Name: Chicago Child
+Theme URI: http://www.wpcharming.com/themes/chicago
+Description: Chicago Child Theme
+Author: WPCharming
+Author URI: http://www.wpcharming.com
+Template: chicago
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpcharming
+Tags:two-columns, left-sidebar, right-sidebar, light, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+.site-header {
+	background-color: #008A30;
+	color: white;
+	border-bottom: 3px solid #FFEE66;
+	height: 91px;
+}
+.site-header.header-fixed {
+	height: 71px;
+}
+#site-navigation .nav-menu li a, #site-navigation .menu li a {
+	color: #ffffff;
+	font-family: "Special Elite";
+	font-weight: 100;
+	font-style: normal;
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+}
+#site-navigation.main-navigation.toggled .nav-menu, #site-navigation.main-navigation.toggled .nav-menu .sub-menu {
+	background: #008A30;
+}
+#site-navigation.main-navigation.toggled .nav-menu li {
+	text-align: right;
+}
+#site-navigation.main-navigation.toggled .nav-menu .sub-menu li {
+	text-align: right;
+}
+.site-branding {
+	position: absolute;
+	z-index: 101;
+}
+.site-header .site-branding img {
+	width: 125px;
+}
+.site-header.header-fixed .site-branding img {
+	width: 120px;
+	transition: all 0.5s ease;
+}
+.tp-caption.black, .black {
+	border-width: 0px;
+    margin: 0px;
+    padding: 0;
+}
+.btn.btn-large {
+	padding: 10px;
+    color: black;
+    border-width: 0px;
+}
+.edm-btn {
+	color: #222 !important;
+	text-decoration: none;
+}
+.footer-social i {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    font-size: 1.2em;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0px;
+    line-height: 2;
+    margin-right: 1em;
+}
+.footer-social label {
+	display:none
+}
+.widget-title {
+	font-family: "Special Elite",monospace;
+}
+.btn.btn-large, .btn-primary {
+	font-size: 1.2em !important;
+	color: white !important;
+	padding: .75em 1.25em .75em 1.25em !important;
+	padding-left: 2em !important;
+	padding-right: 2em !important;
+	border-radius: 2px !important;
+}
+.menu-label {
+	padding: .5em .5em .25em .5em;
+}
+textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+	border: 2px solid #FFE53E;
+	border-radius: 0;
+	color: white;	
+}
+.wpcf7-submit.btn.btn-primary {
+	background: #FFE53E !important;
+	color: #222 !important;
+	padding-left: 2em !important;
+	padding-right: 2em !important;
+}
+#reservation-form div.row_inner_wrapper, .site-footer {
+	background-size: cover !important;
+}
+.contact-info-box {
+	padding-top: 1em;
+}
+.site-footer .footer-columns .widget .widget-title {
+	margin-bottom: 1rem;
+}
+.contact-text i {
+    font-size: 2.4rem;
+}
+.contact-text i:before {
+	color: #FFE53E;
+	font-size: 1.1em;
+}
+.site-footer .footer-columns .contact-info-item .contact-value, .footer-2 {
+	font-size: 1.2em;
+}
+.footer-social i {
+	color: #222;
+}
+.footer-social {
+	font-size: 1.2em;
+}
+.clean-links a {
+	text-decoration: none;
+}
+#content-wrap {
+	padding-bottom: 0;
+}
+.pad-top-2em {
+	padding-top: 2em;
+}
+@media (max-width: 768px) {
+	.vc_grid-container .vc_grid-item {
+		width: 50%;
+		float: left !important;
+	}
+}
