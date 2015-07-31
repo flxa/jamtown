@@ -143,3 +143,19 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
 		float: left !important;
 	}
 }
+@media (min-width: 768px) {
+	#site-navigation .nav-menu li a {
+       		padding: .25em .5em;
+	}
+	#site-navigation .nav-menu li:last-child a {
+		border-left: 2px solid white;
+		line-height: 1;
+		padding: .25em .5em 0 1em;
+		text-transform: lowercase;
+	}
+	.menu-primary-menu-container {
+		position: relative;
+		top: 1em;
+		text-align: right;
+	}
+}
