@@ -159,3 +159,6 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
 		text-align: right;
 	}
 }
+.restaurant-menu-item .menu-title {
+	text-transform: lowercase;
+}
