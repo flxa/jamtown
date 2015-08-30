@@ -13,9 +13,9 @@ Tags:two-columns, left-sidebar, right-sidebar, light, responsive-layout, custom-
 */
 
 .site-header {
-	background-color: #008A30;
+	background-color: #000000;
 	color: white;
-	border-bottom: 3px solid #000000;
+	border-bottom: 3px solid #FFE53E;
 	height: 91px;
 }
 .site-header.header-fixed {
